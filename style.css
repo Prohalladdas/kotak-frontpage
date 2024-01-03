@@ -1,0 +1,393 @@
+/* Imoport Poppins font link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navber container */
+#NAVBER{
+    position: fixed;
+    height: 65px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid #e2e2e2;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-content {
+    display: flex;
+}
+
+.nav-logo img {
+    height: 44px;
+    width: 124px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.nav-logo {
+    height: 65px;
+    display: flex;
+    align-items: center;
+}
+
+/* Navber buttons */
+.nav-buttons-content {
+    display: flex;
+    height: 65px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-buttons-first {
+    /* Navber name disply flex,like (Saving ,Debit card,Credit card,ActivMoney,Business and Insight) */
+    display: flex;
+    list-style: none;
+    padding: 16px;
+    font-size: 15px;
+    color: black;
+}
+
+.nav-buttons-first p {
+    /* Navber name,like (Saving ,Debit card,Credit card,ActivMoney,Business and Insight) */
+    cursor: pointer;
+}
+
+.nav-first-content {
+    display: flex;
+}
+
+/* Navber name hover color ,like (Saving ,Debit card,Credit card,ActivMoney,Business and Insight) */
+.nav-buttons-first p:hover {
+    color: rgb(120, 120, 120);
+}
+
+/* Navber button hover content */
+.nav-buttons-first {
+    display: inline-block;
+}
+
+.hover-content {
+    /* Navber saving button hover container */
+    display: none;
+    position: absolute;
+    height: 340px;
+    width: 100%;
+    margin-left: -160px;
+    margin-top: 16px;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 2px 15px 19px rgba(144, 144, 144, 0.2);
+    z-index: 1;
+}
+
+.hover-content-2 {
+    /* Navber debit card button hover container */
+    display: none;
+    position: absolute;
+    height: 340px;
+    width: 100%;
+    margin-left: -251px;
+    margin-top: 17px;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 2px 15px 19px rgba(144, 144, 144, 0.2);
+    z-index: 1;
+}
+
+.hover-content-3 {
+    /* Navber credit card button hover container  */
+    display: none;
+    position: absolute;
+    height: 340px;
+    width: 100%;
+    margin-left: -362px;
+    margin-top: 17px;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 2px 10px 19px rgba(144, 144, 144, 0.2);
+    z-index: 1;
+}
+
+.nav-buttons-first:hover .hover-content {
+    /* Navber saving button hover  */
+    display: block;
+}
+
+.nav-buttons-first:hover .hover-content-2 {
+    /* Navber debit card button hover  */
+    display: block;
+}
+
+.nav-buttons-first:hover .hover-content-3 {
+    /* Navber credit card button hover  */
+    display: block;
+}
+
+.hover-box {
+    display: flex;
+    height: 340px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hover-card {
+    /* Navber saving ,debit card and credit card hover content flex */
+    display: flex;
+    height: 340px;
+    align-items: center;
+}
+
+.hover-card img {
+    /* Navber saving ,debit card and credit card hover Images */
+    height: 170px;
+    width: 170px;
+    cursor: pointer;
+}
+
+.hover-para {
+    /* Navber saving , debit card and credit card hover Full container */
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+
+.hover-heading {
+    /* Navber saving , debit card and credit card hover Heading */
+    color: rgba(0, 0, 0, 0.813);
+    cursor: pointer;
+}
+
+.hover-heading:hover {
+    color: rgba(255, 26, 26, 0.952);
+}
+
+.hover-para p {
+    /* Navber saving ,debit card and credit card hover paragraph */
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgb(120, 120, 120);
+}
+
+/* Sing up botton */
+button {
+    height: 43px;
+    width: 234px;
+    border: 1px;
+    color: #fff;
+    background: #3857ff;
+    border-radius: 12px;
+    font-size: 13px;
+    font-weight: 599;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2041ff;
+}
+
+/* Main element */
+.main::before {
+    /* Home desktop Image  */
+    background-image: url(home\ bg.png);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    content: "";
+    position: absolute;
+}
+
+.main-content {
+    /* Home desktop content ,like heading, paragraph and button */
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    top: 130px;
+    position: relative;
+    align-items: center;
+    margin-top: 45px;
+    animation: opacity 2s forwards;
+}
+
+.main-content h1 {
+    font-size: 60px;
+    color: rgb(24, 24, 24);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -.025em;
+    text-align: center;
+    white-space: normal;
+    width: 62%;
+    
+}
+
+.main-content .main-para1 {
+    margin-top: 96px;
+}
+
+.main-content .main-para2 {
+    margin-top: 5px;
+}
+
+.main-button {
+    margin-top: 70px;
+}
+
+.main-button a {
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;
+    color: rgb(255, 43, 43);
+}
+/* 3 Box section */
+.box-container{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    top: 640px;
+    position: absolute;
+    animation: opacity 2s forwards;
+}
+@keyframes opacity { /* Box transition  */
+    from {
+        opacity: -3;
+        transition: opacity 2s ease;
+    }
+
+    to {
+        transition: opacity 2s ease;
+        opacity: 2;
+    }
+}
+.box-item{
+    width: 336px;
+    height:418px ;
+    margin: 0 20px;
+    text-align: left;
+    border-radius: 20px;
+    background: #f9f9f9;
+}
+.box-content1{
+    padding: 62px 60px 69px
+}
+.box-content1 h3{
+   margin-top: 90px;
+   margin-bottom: 11px;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 30px;
+   letter-spacing: 0;
+}
+.box-content1 p{
+    width: 242px;
+    height: 73px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0;
+    font-style: normal;
+}
+/* Service section Starting Here */
+.service-contaier{
+    top: 635px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    animation: opacity 2s forwards;
+}
+/* Service photo is a like container because inside have ima,h2 and paragrapg */
+.service-photo{
+    margin-top: 520px;
+}
+.service-photo img{
+    width: 100%; 
+    background-size: cover;
+}
+.service-content{
+    /* border: 2px solid red; */
+    width: 380px;
+    margin-top: 70px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 0;
+    margin-right: 715px;
+}
+#service-item1{
+    height: 400px;
+    width: 100%;
+    /* border: 2px solid black; */
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+.service-content h2{
+    color: white;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: -0.025em;
+}
+.service-content p{
+    font-size: 16px;
+    color: white;
+    margin-top: 20px;
+
+}
+/* This is a second service image content */
+.service-photo2{
+    margin-top: -10px;
+}
+.service-photo2 img{
+    width: 100%; 
+    background-size: cover;
+}
+#service-item2{
+    height: 475px;
+    /* margin-left: 305px; */
+    width: 100%;
+    /* border: 2px solid black; */
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+.service-content2{
+    /* border: 2px solid red; */
+    width: 400px;
+    margin-top: -5px;
+    margin-left: 50%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 0;
+    animation: opacity 2s forwards;
+}
+.service-content2 h2{
+    color: rgb(19, 19, 19);
+    font-size: 42px;
+    letter-spacing: -0.025em;
+    line-height: 52px;
+}
+.service-content2 p{
+    font-size: 16px;
+    color: rgb(19, 19, 19);
+    margin-top: 20px;
+}
+/* Phone Service section */
+
