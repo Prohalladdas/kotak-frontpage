@@ -1,7 +1,7 @@
 /* Imoport Poppins font link */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,7 +9,7 @@
 }
 
 /* Navber container */
-#NAVBER{
+#NAVBER {
     position: fixed;
     height: 65px;
     width: 100%;
@@ -229,7 +229,7 @@ button:hover {
     text-align: center;
     white-space: normal;
     width: 62%;
-    
+
 }
 
 .main-content .main-para1 {
@@ -250,8 +250,9 @@ button:hover {
     font-weight: 600;
     color: rgb(255, 43, 43);
 }
+
 /* 3 Box section */
-.box-container{
+.box-container {
     display: flex;
     justify-content: center;
     min-height: 100vh;
@@ -260,7 +261,10 @@ button:hover {
     position: absolute;
     animation: opacity 2s forwards;
 }
-@keyframes opacity { /* Box transition  */
+
+@keyframes opacity {
+
+    /* Box transition  */
     from {
         opacity: -3;
         transition: opacity 2s ease;
@@ -271,27 +275,31 @@ button:hover {
         opacity: 2;
     }
 }
-.box-item{
+
+.box-item {
     width: 336px;
-    height:418px ;
+    height: 418px;
     margin: 0 20px;
     text-align: left;
     border-radius: 20px;
     background: #f9f9f9;
 }
-.box-content1{
+
+.box-content1 {
     padding: 62px 60px 69px
 }
-.box-content1 h3{
-   margin-top: 90px;
-   margin-bottom: 11px;
-   font-size: 24px;
-   font-style: normal;
-   font-weight: 700;
-   line-height: 30px;
-   letter-spacing: 0;
+
+.box-content1 h3 {
+    margin-top: 90px;
+    margin-bottom: 11px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0;
 }
-.box-content1 p{
+
+.box-content1 p {
     width: 242px;
     height: 73px;
     font-size: 16px;
@@ -300,8 +308,9 @@ button:hover {
     letter-spacing: 0;
     font-style: normal;
 }
+
 /* Service section Starting Here */
-.service-contaier{
+.service-contaier {
     top: 635px;
     width: 100%;
     display: flex;
@@ -310,15 +319,18 @@ button:hover {
     position: absolute;
     animation: opacity 2s forwards;
 }
+
 /* Service photo is a like container because inside have ima,h2 and paragrapg */
-.service-photo{
+.service-photo {
     margin-top: 520px;
 }
-.service-photo img{
-    width: 100%; 
+
+.service-photo img {
+    width: 100%;
     background-size: cover;
 }
-.service-content{
+
+.service-content {
     /* border: 2px solid red; */
     width: 380px;
     margin-top: 70px;
@@ -328,7 +340,8 @@ button:hover {
     letter-spacing: 0;
     margin-right: 715px;
 }
-#service-item1{
+
+#service-item1 {
     height: 400px;
     width: 100%;
     /* border: 2px solid black; */
@@ -337,27 +350,32 @@ button:hover {
     display: flex;
     align-items: center;
 }
-.service-content h2{
+
+.service-content h2 {
     color: white;
     font-size: 40px;
     line-height: 52px;
     letter-spacing: -0.025em;
 }
-.service-content p{
+
+.service-content p {
     font-size: 16px;
     color: white;
     margin-top: 20px;
 
 }
+
 /* This is a second service image content */
-.service-photo2{
+.service-photo2 {
     margin-top: -10px;
 }
-.service-photo2 img{
-    width: 100%; 
+
+.service-photo2 img {
+    width: 100%;
     background-size: cover;
 }
-#service-item2{
+
+#service-item2 {
     height: 475px;
     /* margin-left: 305px; */
     width: 100%;
@@ -367,7 +385,8 @@ button:hover {
     display: flex;
     align-items: center;
 }
-.service-content2{
+
+.service-content2 {
     /* border: 2px solid red; */
     width: 400px;
     margin-top: -5px;
@@ -378,16 +397,57 @@ button:hover {
     letter-spacing: 0;
     animation: opacity 2s forwards;
 }
-.service-content2 h2{
+
+.service-content2 h2 {
     color: rgb(19, 19, 19);
     font-size: 42px;
     letter-spacing: -0.025em;
     line-height: 52px;
 }
-.service-content2 p{
+
+.service-content2 p {
     font-size: 16px;
     color: rgb(19, 19, 19);
     margin-top: 20px;
 }
-/* Phone Service section */
 
+/* Phone Service section */
+.phone-content-photo img {
+    height: 500px;
+    width: 573px;
+    margin-left: 20px;
+}
+
+.phone-content {
+    height: 433px;
+    width: 490px;
+    /* border: 2px solid red; */
+   margin-right: 45px;
+}
+
+.phone-content h1 {
+    color: rgb(19, 19, 19);
+    font-size: 43px;
+    letter-spacing: -0.025em;
+    line-height: 52px;
+    width: 433px;
+}
+
+.phone-content p {
+    font-size: 15px;
+    color: rgb(19, 19, 19);
+    margin-top: 20px;
+    width: 405px;
+    text-align: justify;
+}
+
+.phone-buttons{
+    margin-top: 50px;
+}
+.phone-item1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%px;
+    height: 690px;
+}
