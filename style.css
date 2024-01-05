@@ -423,6 +423,7 @@ button:hover {
     width: 490px;
     /* border: 2px solid red; */
    margin-right: 45px;
+  
 }
 
 .phone-content h1 {
@@ -450,4 +451,64 @@ button:hover {
     justify-content: center;
     width: 100%px;
     height: 690px;
+}
+/* Black credit cards section */
+.black-card{
+    width: 1120px;
+    height: 590px;
+    background-color: black;
+    border-radius: 18px;
+}
+.card-content {
+    height: 260px;
+   text-align: center;
+
+    /* border: 2px solid red; */
+   margin-right: 25px;
+  
+}
+.card-content h1 {
+    color: #ffffff;
+    font-size: 46px;
+    letter-spacing: -0.025em;
+    line-height: 52px;
+    /* width: 365px; */
+    width: 388px;
+    text-align-last: left;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.card-content p {
+    font-size: 15px;
+    color: #ffffff;
+    margin-top: 20px;
+    width: 405px;
+    line-height: 26px;
+    text-align: justify;
+}
+.black-card-photo img {
+    width: 560px;
+    height: 590px;
+    margin-left: 50px;
+    max-height: 590px;
+    overflow: hidden;
+}
+.card-item1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%px;
+    height: 590px;
+    margin-left: 100px;
+}
+.card-buttons{
+    margin-top: 50px;
+}
+
+.card-buttons a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(255, 43, 43);
+    float: left;
 }
