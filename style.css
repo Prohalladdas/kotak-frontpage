@@ -422,8 +422,8 @@ button:hover {
     height: 433px;
     width: 490px;
     /* border: 2px solid red; */
-   margin-right: 45px;
-  
+    margin-right: 45px;
+
 }
 
 .phone-content h1 {
@@ -442,9 +442,10 @@ button:hover {
     text-align: justify;
 }
 
-.phone-buttons{
+.phone-buttons {
     margin-top: 50px;
 }
+
 .phone-item1 {
     display: flex;
     align-items: center;
@@ -452,21 +453,24 @@ button:hover {
     width: 100%px;
     height: 690px;
 }
+
 /* Black credit cards section */
-.black-card{
+.black-card {
     width: 1120px;
     height: 590px;
     background-color: black;
     border-radius: 18px;
 }
+
 .card-content {
     height: 260px;
-   text-align: center;
+    text-align: center;
 
     /* border: 2px solid red; */
-   margin-right: 25px;
-  
+    margin-right: 25px;
+
 }
+
 .card-content h1 {
     color: #ffffff;
     font-size: 46px;
@@ -486,6 +490,7 @@ button:hover {
     line-height: 26px;
     text-align: justify;
 }
+
 .black-card-photo img {
     width: 560px;
     height: 590px;
@@ -493,6 +498,7 @@ button:hover {
     max-height: 590px;
     overflow: hidden;
 }
+
 .card-item1 {
     display: flex;
     align-items: center;
@@ -501,19 +507,21 @@ button:hover {
     height: 590px;
     margin-left: 100px;
 }
-.card-buttons{
+
+.card-buttons {
     margin-top: 50px;
 }
 
-.card-buttons a{
+.card-buttons a {
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;
     color: rgb(255, 43, 43);
     float: left;
 }
+
 /* 811 animation section */
-.animation{
+.animation {
     display: flex;
     /* background-color: gainsboro; */
     height: 686px;
@@ -521,37 +529,43 @@ button:hover {
     align-items: center;
     justify-content: center;
 }
-.animation-item1 img{
-    height:380px ;
+
+.animation-item1 img {
+    height: 380px;
     width: 480px;
 }
-.animation-item2{
-    height:252px ;
+
+.animation-item2 {
+    height: 252px;
     width: 487px;
     /* border: 2px solid red; */
     margin-left: 130px;
 }
-.animation-item2 h1{
+
+.animation-item2 h1 {
     font-size: 45px;
     letter-spacing: -0.025em;
     line-height: 52px;
     margin-bottom: 20px;
 }
+
 /* Half black & white circle section */
-.black-white-container{
+.black-white-container {
     width: 1120px;
     height: 490px;
     background-color: black;
     border-radius: 18px;
     position: relative;
 }
-.black-white-photo img{
+
+.black-white-photo img {
     width: 283px;
     height: 489px;
     margin-left: 100px;
     /* max-height: 590px; */
     overflow: hidden;
 }
+
 .black-white-content {
     display: flex;
     align-items: center;
@@ -559,6 +573,7 @@ button:hover {
     width: 1120px;
     height: 490px;
 }
+
 .card-heading h1 {
     color: #ffffff;
     font-size: 46px;
@@ -568,69 +583,161 @@ button:hover {
     height: 105px;
     font-family: 'Nunito Sans', sans-serif;
 }
+
 /* Download the app section  */
-.download{
-    width: 100%;
-    height: 660px;
-    overflow: hidden;
-    background-color: #253844;
-    padding-top: 15%;
-    margin-top: -15%;
-    white-space: pre-line;
-}
-.download-heading h1{
-    font-size: 44px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 52px;
-    letter-spacing: -.025em;
+/* I used to be media query to fix small ishu */
+@media(min-width:1670px) and (max-width:6000px) {
+    .download {
+        width: 100%;
+        height: 860px;
+        overflow: hidden;
+        background-color: #253844;
+        padding-top: 15%;
+        margin-top: -12%;
+        white-space: pre-line;
+    }
+    .download-heading h1 {
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 52px;
+        letter-spacing: -.025em;
+    
+        color: #fff;
+        /* padding: 125px 0 24px; */
+        text-align: center;
+    }
+    .download-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        width: 100%;
+        padding: 125px 0 24px;
+        /* padding: 125px 0 24px; */
+    }
+    .download-buttons {
+        display: flex;
+    }
+    
+    .button {
+        display: flex;
+        height: 57px;
+        width: 260px;
+        color: #fff;
+        background-color: #000000;
+        align-items: center;
+        justify-content: center;
+        margin-right: 40px;
+        border-radius: 10px;
+    }
+    
+    .button:hover,
+    .button2:hover {
+        background-color: #222;
+        cursor: pointer;
+        /* color: #fff; */
+    }
+    
+    .button a,
+    .button2 a {
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .button i,
+    .button2 i {
+        margin-right: 16px;
+    
+    }
+    
+    .button2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 57px;
+        width: 260px;
+        color: #fff;
+        background-color: #000000;
+        border-radius: 10px;
+    }
 
-    color: #fff;
-    /* padding: 125px 0 24px; */
-    text-align: center;
 }
-.download-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    width: 100%;
-    padding: 125px 0 24px; 
-}
-.download-buttons{
-    display: flex;
-}
-.button{
-    display: flex;
-    height: 57px;
-    width: 260px;
-    color: #fff;
-    background-color: #000000;
-  align-items: center;
-  justify-content: center;
-  margin-right: 40px;
-  border-radius: 10px;
-}
-.button:hover ,.button2:hover{
-    background-color:#222;
-    cursor: pointer;
-    /* color: #fff; */
-}
-.button a ,.button2 a{
-    text-decoration: none;
-    color: #fff;
-}
-.button i ,.button2 i{
-   margin-right: 16px;
-
-}
-.button2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 57px;
-    width: 260px;
-    color: #fff;
-    background-color: #000000;
-    border-radius: 10px;
+@media (max-width:1670px){
+    .download {
+        width: 100%;
+        height: 660px;
+        overflow: hidden;
+        background-color: #253844;
+        padding-top: 15%;
+        margin-top: -15%;
+        white-space: pre-line;
+    }
+    
+    .download-heading h1 {
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 52px;
+        letter-spacing: -.025em;
+    
+        color: #fff;
+        /* padding: 125px 0 24px; */
+        text-align: center;
+    }
+    
+    .download-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        width: 100%;
+        padding: 125px 0 24px;
+    }
+    
+    .download-buttons {
+        display: flex;
+    }
+    
+    .button {
+        display: flex;
+        height: 57px;
+        width: 260px;
+        color: #fff;
+        background-color: #000000;
+        align-items: center;
+        justify-content: center;
+        margin-right: 40px;
+        border-radius: 10px;
+    }
+    
+    .button:hover,
+    .button2:hover {
+        background-color: #222;
+        cursor: pointer;
+        /* color: #fff; */
+    }
+    
+    .button a,
+    .button2 a {
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .button i,
+    .button2 i {
+        margin-right: 16px;
+    
+    }
+    
+    .button2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 57px;
+        width: 260px;
+        color: #fff;
+        background-color: #000000;
+        border-radius: 10px;
+    }
 }
