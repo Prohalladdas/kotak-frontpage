@@ -741,3 +741,112 @@ button:hover {
         border-radius: 10px;
     }
 }
+/* Contact section start hare */
+.footer{
+    width: 100%;
+    height: 1476px;
+    background-color: #ffffff;
+}
+.contact-container{
+    height: 501px;
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 252px;
+}
+.contact-content{
+    height: 361px;
+    width: 443px;
+    background-color: #ffffff;
+}
+.logo img{
+    height: 45px;
+    width: 120px;
+    margin-left: -10px;
+    cursor: pointer;
+}
+.logo nav{
+    margin-top: 20px;
+    font-size: 12px;
+    color: gray;
+}
+.social-logo{
+    margin-top: 70px;
+    font-size: 12px;
+    color: gray;
+}
+.logo-icon{
+  height: 45px;
+  width: 45px;
+  background-color:#dcdcdcdc;
+  color: #000000;
+  border-radius: 50%;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 18px 16px 0px 0px;
+}
+.logo-icon:hover{
+    cursor: pointer;
+    background-color: rgb(197, 197, 197);
+}
+.logo-container{
+    display: inline-flex;;
+}
+/* Thumb imoji */
+.thumb-imoji img{
+    height: 40px;
+}
+.thumb-imoji{
+  display: flex;
+  gap: 42px;
+  margin-left: 20px;
+  justify-content: center;
+}
+.thumb-imoji nav{
+   font-size: 13px;
+   color: gray;
+}
+.contact-number{
+    height: 261px;
+    width: 443px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.whatsapp-btn a{
+    height: 65px;
+    width: 346px;
+    background-color: #2ca54e;
+    color: #fff;
+    font-size: 16px;
+    line-height: 29px;
+    text-decoration: none;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    cursor: pointer;
+}
+.whatsapp-btn a:hover{
+    background-color: #20823b;
+}
+.whatsapp-btn a i{
+    font-size: 32px;
+    margin-right: 8px;
+    font-weight: 300;
+}
+.whatsapp-btn{
+    margin-top: 80px;
+}
+.contact-content2{
+    height: 361px;
+    width: 443px;
+    margin-top: 162px;
+}
