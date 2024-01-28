@@ -1134,4 +1134,17 @@ button:hover {
         margin-left: 728px;
     }
 
+    /* Main desktop heading */
+    .main-content h1 {
+        /* font-size: 60px;
+        color: rgb(24, 24, 24);
+        font-style: normal;
+        font-weight: 700;
+        line-height: 70px;
+        letter-spacing: -.025em;
+        text-align: center;
+        white-space: normal; */
+        width: auto;
+    }
+
 }
