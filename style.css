@@ -284,7 +284,25 @@ button:hover {
     }
 }
 
-.box-item {
+.box-item1 {
+    width: 336px;
+    height: 418px;
+    margin: 0 20px;
+    text-align: left;
+    border-radius: 20px;
+    background: #f9f9f9;
+}
+
+.box-item2 {
+    width: 336px;
+    height: 418px;
+    margin: 0 20px;
+    text-align: left;
+    border-radius: 20px;
+    background: #f9f9f9;
+}
+
+.box-item3 {
     width: 336px;
     height: 418px;
     margin: 0 20px;
@@ -349,16 +367,31 @@ button:hover {
     margin-right: 715px;
 }
 
+/* big photo 1 */
 #service-item1 {
     height: 400px;
     width: 100%;
+    /* background-image: url(desktop\ bg1.webp); */
+    background-size: cover;
     /* border: 2px solid black; */
     justify-content: center;
     position: absolute;
     display: flex;
     align-items: center;
 }
-
+/* jokhon html a big image 1 remove korle tokhon uncomment korte hobe */
+/* #service-item1 {
+    height: 720px;
+    width: 100%;
+    background-image: url(desktop\ bg1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    display: flex;
+    align-items: center;
+} */
 .service-content h2 {
     color: white;
     font-size: 40px;
@@ -377,28 +410,35 @@ button:hover {
 .service-photo2 {
     margin-top: -10px;
 }
-
+/* jokhon html a big image 1 remove korle tokhon uncomment korte hobe */
+/* .service-photo2 {
+    margin-top: 719px;
+} */
 .service-photo2 img {
     width: 100%;
     background-size: cover;
 }
 
+/* big photo 2 */
 #service-item2 {
-    height: 475px;
-    /* margin-left: 305px; */
-    width: 100%;
-    /* border: 2px solid black; */
+    height: 747px;
+    /* height: 662px; */
+    left: 0;
     justify-content: center;
     position: absolute;
     display: flex;
     align-items: center;
+    background-image: url(desktop\ bg2.webp);
+    background-size: cover;
+    width: 100%;
+    /* border: 2px solid black; */
 }
 
 .service-content2 {
-    /* border: 2px solid red; */
+
     width: 400px;
-    margin-top: -5px;
-    margin-left: 50%;
+    margin-top: -149px;
+    margin-left: 775px;
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -454,12 +494,20 @@ button:hover {
     margin-top: 50px;
 }
 
-.phone-item1 {
+/* .phone-item1 {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%px;
     height: 690px;
+} */
+
+.phone-item1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 690px;
+    margin-top: 750px;
 }
 
 /* Black credit cards section */
@@ -1092,6 +1140,7 @@ button:hover {
 
 /* @media query  Starting Here*/
 @media only screen and (min-width:680px) and (max-width:1175px) {
+
     /* Navber */
     .nav-first-content {
         display: none;
@@ -1108,7 +1157,8 @@ button:hover {
         display: none;
     }
 
-    .nav-icon-first-line { /* Hamburger first line */
+    .nav-icon-first-line {
+        /* Hamburger first line */
         display: inline-flex;
         width: 29px;
         height: 2px;
@@ -1117,7 +1167,8 @@ button:hover {
         margin-bottom: 9px;
     }
 
-    .nav-icon-second-line { /* Hamburger last line */
+    .nav-icon-second-line {
+        /* Hamburger last line */
         display: inline-flex;
         width: 29px;
         height: 2px;
@@ -1125,26 +1176,106 @@ button:hover {
         border-bottom: 3px solid #000000;
     }
 
-    .nav-icon { /* Hamburger 2 line */
+    .nav-icon {
+        /* Hamburger 2 line */
         display: flex;
         flex-direction: column;
     }
 
-    .nav-buttons-content { /* Hamburger left to right */
+    .nav-buttons-content {
+        /* Hamburger left to right */
         margin-left: 728px;
     }
 
-    /* Main desktop heading */
+    /* Main home desktop heading */
     .main-content h1 {
-        /* font-size: 60px;
-        color: rgb(24, 24, 24);
-        font-style: normal;
-        font-weight: 700;
-        line-height: 70px;
-        letter-spacing: -.025em;
-        text-align: center;
-        white-space: normal; */
         width: auto;
     }
 
+    /* 3 box section Scroll */
+    .box-item1 {
+        width: 300px;
+        height: 418px;
+        margin: 0 20px;
+        text-align: left;
+        border-radius: 20px;
+        background: #f9f9f9;
+    }
+
+    .box-item2 {
+        width: 300px;
+        height: 418px;
+        margin: 0 20px;
+        text-align: left;
+        border-radius: 20px;
+        background: #f9f9f9;
+    }
+
+    .box-item3 {
+        width: 300px;
+        height: 418px;
+        margin: 0 20px;
+        text-align: left;
+        border-radius: 20px;
+        background: #f9f9f9;
+    }
+
+    .box-content1 h3 {
+        font-size: 20px;
+    }
+
+    .box-content1 p {
+        font-size: 13px;
+    }
+
+    /* service section 2 big image */
+    .service-content {
+        margin-top: -216px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        letter-spacing: 0px;
+        margin-right: 310px;
+    }
+
+    .service-content2 {
+        /* border: 2px solid red; */
+        margin-left: 6px;
+        position: absolute;
+        width: auto;
+        top: 170px;
+    }
+
+    .service-content2 h2 {
+        color: rgb(19, 19, 19);
+        font-size: 39px;
+        letter-spacing: -0.025em;
+        line-height: 40px;
+    }
+
+    .service-content2 p {
+        font-size: 14px;
+        color: rgb(19, 19, 19);
+        margin-top: 20px;
+    }
+
+    .service-content h2 {
+        color: white;
+        font-size: 34px;
+        line-height: 35px;
+        letter-spacing: -0.025em;
+    }
+#service-item2{
+    height: 580px;
+}
+.phone-item1{
+    margin-top: 582px;
+}
+    /* .service-photo2 {
+        background-image: url(mobile\ bg2.jpg);
+        display: none;
+    } */
+
+    /* Phone section  */
 }
