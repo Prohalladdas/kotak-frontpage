@@ -379,6 +379,7 @@ button:hover {
     display: flex;
     align-items: center;
 }
+
 /* jokhon html a big image 1 remove korle tokhon uncomment korte hobe */
 /* #service-item1 {
     height: 720px;
@@ -410,6 +411,7 @@ button:hover {
 .service-photo2 {
     margin-top: -10px;
 }
+
 /* jokhon html a big image 1 remove korle tokhon uncomment korte hobe */
 /* .service-photo2 {
     margin-top: 719px;
@@ -1139,7 +1141,7 @@ button:hover {
 
 
 /* @media query  Starting Here*/
-@media only screen and (min-width:680px) and (max-width:1175px) {
+@media only screen and (min-width:778px) and (max-width:1175px) {
 
     /* Navber */
     .nav-first-content {
@@ -1266,16 +1268,102 @@ button:hover {
         line-height: 35px;
         letter-spacing: -0.025em;
     }
-#service-item2{
-    height: 580px;
-}
-.phone-item1{
-    margin-top: 582px;
-}
+
+    #service-item2 {
+        height: 580px;
+    }
+
+    .phone-item1 {
+        margin-top: 630px;
+        height: 474px;
+    }
+
     /* .service-photo2 {
         background-image: url(mobile\ bg2.jpg);
         display: none;
     } */
 
     /* Phone section  */
+    .phone-content-photo img {
+        /* height: 500px;
+        width: 573px;
+        margin-left: 20px; */
+        display: none;
+    }
+
+    .phone-content-photo {
+        background-image: url(https://d2gwgwt9a7yxle.cloudfront.net/virtual_debit_card_mob_06b50dc8e0.webp);
+        width: 375px;
+        height: 250px;
+        background-size: cover;
+
+    }
+
+    /* black card photo change */
+    .black-card-photo img {
+        display: none;
+    }
+
+    .black-card-photo {
+        background-image: url(https://d2gwgwt9a7yxle.cloudfront.net/credit_card_mob_5368bd2714.webp);
+        width: 375px;
+        height: 250px;
+        background-size: cover;
+        margin-top: 5pc;
+    }
+
+    .black-card {
+        /* balck card section backgrond */
+        width: auto;
+        height: 330px;
+        background-color: black;
+        border-radius: 18px;
+    }
+
+    .card-item1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        height: 330px;
+        margin-left: 55px;
+    }
+
+    .card-buttons a {
+        /* button some move top */
+        margin-top: -20px;
+        font-weight: 600;
+    }
+
+    /* Animation image section */
+    .animation-item1 img {
+        height: 300px;
+        width: 375px;
+    }
+    .animation-item2 {
+        height: 252px;
+        width: 448px;
+        margin-left: 10px;
+    }
+    .animation-item2 h1 {
+        font-size: 39px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+    .animation {
+        height: 540px;
+        width: 100%;
+    }
+    /* Black and white container */
+    .black-white-photo img {
+      display: none;
+    }
+    .black-white-container {
+        width: auto;
+        height: 330px;
+    }
+    .black-white-content {
+        width: 900px;
+        height: 330px;
+    }
 }
