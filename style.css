@@ -1340,30 +1340,187 @@ button:hover {
         height: 300px;
         width: 375px;
     }
+
     .animation-item2 {
         height: 252px;
         width: 448px;
         margin-left: 10px;
     }
+
     .animation-item2 h1 {
         font-size: 39px;
         line-height: 50px;
         margin-bottom: 20px;
     }
+
     .animation {
         height: 540px;
         width: 100%;
     }
+
     /* Black and white container */
     .black-white-photo img {
-      display: none;
+        display: none;
     }
+
     .black-white-container {
         width: auto;
         height: 330px;
     }
+
     .black-white-content {
         width: 900px;
         height: 330px;
+    }
+
+    /* Download the app section did small low height */
+    .download {
+        width: 100%;
+        height: 560px;
+    }
+
+    .download-content {
+        padding: 26px 0 24px;
+    }
+
+    /* Footer contact section */
+    .footer {
+        width: 100%;
+        height: 1683px;
+        padding: 12px;
+    }
+
+    .contact-container {
+        display: block;
+        height: 570px;
+        margin-top: 30px;
+    }
+
+    .contact-content {
+        height: 95px;
+        width: 443px;
+    }
+
+    .contact-content2 {
+        height: 302px;
+        width: 472px;
+        margin-top: 162px;
+        margin-left: -60px;
+    }
+
+    .whatsapp-btn a {
+        height: 65px;
+        width: 300px;
+        margin-left: -17px;
+    }
+
+    /* Details item footer section */
+    .details-item a,
+    .second-details-item a {
+        display: none;
+    }
+
+    .details-content {
+        display: block;
+    }
+
+    .details-item {
+        display: flex;
+        flex-direction: column;
+        height: 46px;
+        border-bottom: 1px solid #cbcbcbba;
+    }
+
+    .details-item h4 {
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        height: 0px;
+        color: #1e1e1e;
+        font-size: 25px;
+    }
+
+    .second-details-item {
+        display: flex;
+        flex-direction: column;
+        margin-top: 37px;
+    }
+
+    .second-details-item h4 {
+        font-size: 25px;
+        height: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+    /* Footer Details 2 */
+    .footer-details2 {
+        height: 493px;
+        /* border: 1px solid blue; */
+        display: flex;
+        justify-content: center;
+        margin-top: 211px;
+    }
+
+    .details-container2 {
+        width: 100%;
+        height: 388px;
+        /* border-top: 1px solid #cbcbcbba; */
+        border-bottom: 2px solid #cbcbcbba;
+    }
+
+    .details-content2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .details-item-last {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .details-item-last2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .details-item-last a {
+        font-size: 11px;
+    }
+
+    .details-footer-second-box {
+        /* width: 410px; */
+        width: auto;
+        margin-top: 85px;
+        margin-left: 0;
+    }
+
+    /* End footer section */
+    .end-footer-content {
+        display: flex;
+        flex-direction: column;
+        margin-top: 234px;
+        font-size: 12px;
+        border-top: 1px solid #cbcbcbba;
+        height: 265px;
+        ;
+    }
+
+    .end-item1 {
+        margin-top: -48px;
+    }
+
+    .end-item2 {
+        display: flex;
+        flex-direction: column;
+        margin-left: -19px;
+        margin-top: 13px;
+    }
+
+    .end-item2 a {
+        margin-left: 20px;
+        margin-top: 7px;
     }
 }
