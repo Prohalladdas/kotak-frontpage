@@ -1492,8 +1492,8 @@ button:hover {
 
     .details-footer-second-box {
         /* width: 410px; */
-        width: auto;
-        margin-top: 85px;
+        width: 100%;
+        margin-top: 100px;
         margin-left: 0;
     }
 
@@ -1522,5 +1522,524 @@ button:hover {
     .end-item2 a {
         margin-left: 20px;
         margin-top: 7px;
+    }
+
+    /* edit code */
+    .nav-buttons-content {
+        margin-left: 650px;
+    }
+}
+
+@media only screen and (max-width:960px) {
+    .box-item3 {
+        /* third box */
+        display: none;
+    }
+
+    /* Service container means big image */
+    .service-photo img {
+        display: none;
+    }
+
+    #service-item1 {
+        height: 720px;
+        width: 100%;
+        background-image: url(mobile\ bg1.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        justify-content: center;
+        position: absolute;
+        left: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .service-photo2 {
+        margin-top: 718px;
+    }
+
+    .service-content {
+        margin-top: -519px;
+        width: auto;
+        margin-right: 74px;
+    }
+
+    #service-item2 {
+        height: 837px;
+        /* height: 747px; */
+        left: 0;
+        justify-content: center;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        background-image: url(mobile\ bg2.jpg);
+        background-size: cover;
+        width: 100%;
+    }
+
+    /* phone content */
+    .phone-item1 {
+        margin-top: 860px;
+        height: 474px;
+    }
+
+    .phone-content-photo {
+        background-image: url(https://d2gwgwt9a7yxle.cloudfront.net/virtual_debit_card_mob_06b50dc8e0.webp);
+        width: 280px;
+        height: 250px;
+        background-size: cover;
+    }
+
+    .phone-content {
+        height: 433px;
+        width: 369px;
+    }
+
+    .phone-content h1 {
+        font-size: 35px;
+        width: 379px;
+    }
+
+    /* black card container */
+    .black-card {
+        width: 100%;
+        height: 330px;
+    }
+
+    .card-content {
+        margin-right: -20px;
+    }
+
+    /* animation */
+    .animation-item1 img {
+        height: 271px;
+        width: 334px;
+    }
+
+    .animation-item2 {
+        height: 252px;
+        width: 330px;
+    }
+
+    .animation-item2 h1 {
+        font-size: 33px;
+    }
+
+    /* black-white-container */
+    .black-white-container {
+        width: 100%;
+        height: 330px;
+    }
+
+    .black-white-content {
+        width: 99%;
+        height: 330px;
+    }
+
+    /* navber hamburger */
+    .nav-buttons-content {
+        margin-left: 553px;
+    }
+}
+
+/* .mobile-photo {
+    display: none;
+} */
+
+/* starting here media query(min-width:550px) and (max-width:778px) */
+
+@media only screen and (min-width:661px) and (max-width:778px) {
+
+      /* Navber */
+      .nav-first-content {
+        display: none;
+    }
+
+    .nav-logo {
+        height: 65px;
+        display: flex;
+        width: 345%;
+        align-items: center;
+    }
+
+    .nav-buttons-second {
+        display: none;
+    }
+
+    .nav-icon-first-line {
+        /* Hamburger first line */
+        display: inline-flex;
+        width: 29px;
+        height: 2px;
+        border-radius: 0.5rem;
+        border-top: 3px solid #000000;
+        margin-bottom: 9px;
+    }
+
+    .nav-icon-second-line {
+        /* Hamburger last line */
+        display: inline-flex;
+        width: 29px;
+        height: 2px;
+        border-radius: 0.5rem;
+        border-bottom: 3px solid #000000;
+    }
+
+    .nav-icon {
+        /* Hamburger 2 line */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-buttons-content {
+        /* Hamburger left to right */
+        margin-left: 728px;
+    }
+
+    /* Main home desktop heading */
+    .main-content h1 {
+        width: auto;
+    }
+
+    /* 3 box section Scroll */
+    .box-item1 {
+        width: 300px;
+        height: 418px;
+        margin: 0 20px;
+        text-align: left;
+        border-radius: 20px;
+        background: #f9f9f9;
+    }
+
+    .box-item2 {
+        width: 300px;
+        height: 418px;
+        margin: 0 20px;
+        text-align: left;
+        border-radius: 20px;
+        background: #f9f9f9;
+    }
+
+    .box-item3 {
+        width: 300px;
+        height: 418px;
+        margin: 0 20px;
+        text-align: left;
+        border-radius: 20px;
+        background: #f9f9f9;
+    }
+
+    .box-content1 h3 {
+        font-size: 20px;
+    }
+
+    .box-content1 p {
+        font-size: 13px;
+    }
+
+    /* service section 2 big image */
+    .service-content {
+        margin-top: -216px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        letter-spacing: 0px;
+        margin-right: 310px;
+    }
+
+    .service-content2 {
+        /* border: 2px solid red; */
+        margin-left: 6px;
+        position: absolute;
+        width: auto;
+        top: 170px;
+    }
+
+    .service-content2 h2 {
+        color: rgb(19, 19, 19);
+        font-size: 39px;
+        letter-spacing: -0.025em;
+        line-height: 40px;
+    }
+
+    .service-content2 p {
+        font-size: 14px;
+        color: rgb(19, 19, 19);
+        margin-top: 20px;
+    }
+
+    .service-content h2 {
+        color: white;
+        font-size: 34px;
+        line-height: 35px;
+        letter-spacing: -0.025em;
+    }
+
+    #service-item2 {
+        height: 580px;
+    }
+
+    .phone-item1 {
+        margin-top: 630px;
+        height: 474px;
+    }
+
+    /* .service-photo2 {
+        background-image: url(mobile\ bg2.jpg);
+        display: none;
+    } */
+
+    /* Phone section  */
+    .phone-content-photo img {
+        /* height: 500px;
+        width: 573px;
+        margin-left: 20px; */
+        display: none;
+    }
+
+    .phone-content-photo {
+        background-image: url(https://d2gwgwt9a7yxle.cloudfront.net/virtual_debit_card_mob_06b50dc8e0.webp);
+        width: 375px;
+        height: 250px;
+        background-size: cover;
+
+    }
+
+    /* black card photo change */
+    .black-card-photo img {
+        display: none;
+    }
+
+    .black-card-photo {
+        background-image: url(https://d2gwgwt9a7yxle.cloudfront.net/credit_card_mob_5368bd2714.webp);
+        width: 375px;
+        height: 250px;
+        background-size: cover;
+        margin-top: 5pc;
+    }
+
+    .black-card {
+        /* balck card section backgrond */
+        width: auto;
+        height: 330px;
+        background-color: black;
+        border-radius: 18px;
+    }
+
+    .card-item1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        height: 330px;
+        margin-left: 55px;
+    }
+
+    .card-buttons a {
+        /* button some move top */
+        margin-top: -20px;
+        font-weight: 600;
+    }
+
+    /* Animation image section */
+    .animation-item1 img {
+        height: 300px;
+        width: 375px;
+    }
+
+    .animation-item2 {
+        height: 252px;
+        width: 448px;
+        margin-left: 10px;
+    }
+
+    .animation-item2 h1 {
+        font-size: 39px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+
+    .animation {
+        height: 540px;
+        width: 100%;
+    }
+
+    /* Black and white container */
+    .black-white-photo img {
+        display: none;
+    }
+
+    .black-white-container {
+        width: auto;
+        height: 330px;
+    }
+
+    .black-white-content {
+        width: 900px;
+        height: 330px;
+    }
+
+    /* Download the app section did small low height */
+    .download {
+        width: 100%;
+        height: 560px;
+    }
+
+    .download-content {
+        padding: 26px 0 24px;
+    }
+
+    /* Footer contact section */
+    .footer {
+        width: 100%;
+        height: 1683px;
+        padding: 12px;
+    }
+
+    .contact-container {
+        display: block;
+        height: 570px;
+        margin-top: 30px;
+    }
+
+    .contact-content {
+        height: 95px;
+        width: 443px;
+    }
+
+    .contact-content2 {
+        height: 302px;
+        width: 472px;
+        margin-top: 162px;
+        margin-left: -60px;
+    }
+
+    .whatsapp-btn a {
+        height: 65px;
+        width: 300px;
+        margin-left: -17px;
+    }
+
+    /* Details item footer section */
+    .details-item a,
+    .second-details-item a {
+        display: none;
+    }
+
+    .details-content {
+        display: block;
+    }
+
+    .details-item {
+        display: flex;
+        flex-direction: column;
+        height: 46px;
+        border-bottom: 1px solid #cbcbcbba;
+    }
+
+    .details-item h4 {
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        height: 0px;
+        color: #1e1e1e;
+        font-size: 25px;
+    }
+
+    .second-details-item {
+        display: flex;
+        flex-direction: column;
+        margin-top: 37px;
+    }
+
+    .second-details-item h4 {
+        font-size: 25px;
+        height: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+    /* Footer Details 2 */
+    .footer-details2 {
+        height: 493px;
+        /* border: 1px solid blue; */
+        display: flex;
+        justify-content: center;
+        margin-top: 211px;
+    }
+
+    .details-container2 {
+        width: 100%;
+        height: 388px;
+        /* border-top: 1px solid #cbcbcbba; */
+        border-bottom: 2px solid #cbcbcbba;
+    }
+
+    .details-content2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .details-item-last {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .details-item-last2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .details-item-last a {
+        font-size: 11px;
+    }
+
+    .details-footer-second-box {
+        /* width: 410px; */
+        width: 100%;
+        margin-top: 100px;
+        margin-left: 0;
+    }
+
+    /* End footer section */
+    .end-footer-content {
+        display: flex;
+        flex-direction: column;
+        margin-top: 234px;
+        font-size: 12px;
+        border-top: 1px solid #cbcbcbba;
+        height: 265px;
+        ;
+    }
+
+    .end-item1 {
+        margin-top: -48px;
+    }
+
+    .end-item2 {
+        display: flex;
+        flex-direction: column;
+        margin-left: -19px;
+        margin-top: 13px;
+    }
+
+    .end-item2 a {
+        margin-left: 20px;
+        margin-top: 7px;
+    }
+
+    /* edit code */
+    .nav-buttons-content {
+        margin-left: 650px;
+    }
+
+
+
+    /* Starting here media query 550 to 7 */
+    .main-content h1 {
+        font-size: 44px;
     }
 }
