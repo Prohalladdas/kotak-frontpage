@@ -137,28 +137,32 @@
     justify-content: space-evenly;
 }
 
+
+/* Navber saving ,debit card and credit card hover content flex */
 .hover-card {
-    /* Navber saving ,debit card and credit card hover content flex */
     display: flex;
     height: 340px;
     align-items: center;
 }
 
+
+/* Navber saving ,debit card and credit card hover Images */
 .hover-card img {
-    /* Navber saving ,debit card and credit card hover Images */
     height: 170px;
     width: 170px;
     cursor: pointer;
 }
 
+
+/* Navber saving , debit card and credit card hover Full container */
 .hover-para {
-    /* Navber saving , debit card and credit card hover Full container */
     margin-bottom: 50px;
     margin-left: 30px;
 }
 
+
+/* Navber saving , debit card and credit card hover Heading */
 .hover-heading {
-    /* Navber saving , debit card and credit card hover Heading */
     color: rgba(0, 0, 0, 0.813);
     cursor: pointer;
 }
@@ -167,8 +171,9 @@
     color: rgba(255, 26, 26, 0.952);
 }
 
+
+/* Navber saving ,debit card and credit card hover paragraph */
 .hover-para p {
-    /* Navber saving ,debit card and credit card hover paragraph */
     margin-top: 10px;
     font-size: 15px;
     line-height: 18px;
@@ -236,7 +241,7 @@ button:hover {
     text-align: center;
     white-space: normal;
     width: 750px;
-    /* width: 62%; */
+
 
 }
 
@@ -269,7 +274,7 @@ button:hover {
     position: absolute;
     animation: opacity 2s forwards;
 }
-
+/* after 1 second slowly visible korrar jonno */
 @keyframes opacity {
 
     /* Box transition  */
@@ -380,19 +385,7 @@ button:hover {
     align-items: center;
 }
 
-/* jokhon html a big image 1 remove korle tokhon uncomment korte hobe */
-/* #service-item1 {
-    height: 720px;
-    width: 100%;
-    background-image: url(desktop\ bg1.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    justify-content: center;
-    position: absolute;
-    left: 0;
-    display: flex;
-    align-items: center;
-} */
+
 .service-content h2 {
     color: white;
     font-size: 40px;
@@ -496,13 +489,7 @@ button:hover {
     margin-top: 50px;
 }
 
-/* .phone-item1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%px;
-    height: 690px;
-} */
+
 
 .phone-item1 {
     display: flex;
@@ -808,8 +795,7 @@ button:hover {
 .footer {
     width: 100%;
     height: 1650px;
-    /* height: 1476px; */
-    /* background-color: #ffffff; */
+
 }
 
 .contact-container {
@@ -1079,7 +1065,7 @@ button:hover {
 
 /* second box */
 .details-footer-second-box {
-    /* width: 500px; */
+
     margin-left: 191px;
     width: 410px;
     margin-top: 40px;
@@ -1664,9 +1650,7 @@ button:hover {
     }
 }
 
-/* .mobile-photo {
-    display: none;
-} */
+
 
 /* starting here media query(min-width:550px) and (max-width:778px) */
 
@@ -3541,10 +3525,11 @@ button:hover {
         width: 100%;
         text-align: center;
     }
+
     .main-content .main-para2 {
-     text-align: center;
+        text-align: center;
         width: 100%;
-       
+
     }
 
     /* button */
@@ -3647,6 +3632,11 @@ button:hover {
         height: 620px;
         margin-top: 30px;
         padding: 0px 22px;
+    }
+
+    .contact-content {
+        height: 95px;
+        width: 100%;
     }
 
     .contact-number {
@@ -3796,5 +3786,1209 @@ button:hover {
 @media only screen and (max-width:440px) {
     .main-content .main-para1 {
         margin-top: 190px;
+    }
+}
+
+/* Final responsive ending */
+@media only screen and (min-width:270px) and (max-width:400px) {
+
+    /* Navber */
+    .nav-first-content {
+        display: none;
+    }
+
+    .nav-logo {
+        height: 65px;
+        display: flex;
+        width: 345%;
+        align-items: center;
+    }
+
+    .nav-buttons-second {
+        display: none;
+    }
+
+    .nav-icon-first-line {
+        /* Hamburger first line */
+        display: inline-flex;
+        width: 29px;
+        height: 2px;
+        border-radius: 0.5rem;
+        border-top: 3px solid #000000;
+        margin-bottom: 9px;
+    }
+
+    .nav-icon-second-line {
+        /* Hamburger last line */
+        display: inline-flex;
+        width: 29px;
+        height: 2px;
+        border-radius: 0.5rem;
+        border-bottom: 3px solid #000000;
+    }
+
+    .nav-icon {
+        /* Hamburger 2 line */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-buttons-content {
+        /* Hamburger left to right */
+        margin-left: 728px;
+    }
+
+    /* Main home desktop heading */
+    .main-content h1 {
+        width: auto;
+    }
+
+    /* 3 box section Scroll */
+    .box-item1 {
+        width: 300px;
+        height: 418px;
+        margin: 0 20px;
+        text-align: left;
+        border-radius: 20px;
+        background: #f9f9f9;
+    }
+
+    .box-item2 {
+        width: 300px;
+        height: 418px;
+        margin: 0 20px;
+        text-align: left;
+        border-radius: 20px;
+        background: #f9f9f9;
+    }
+
+    .box-item3 {
+        width: 300px;
+        height: 418px;
+        margin: 0 20px;
+        text-align: left;
+        border-radius: 20px;
+        background: #f9f9f9;
+    }
+
+    .box-content1 h3 {
+        font-size: 20px;
+    }
+
+    .box-content1 p {
+        font-size: 13px;
+    }
+
+    /* service section 2 big image */
+    .service-content {
+        margin-top: -216px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        letter-spacing: 0px;
+        margin-right: 310px;
+    }
+
+    .service-content2 {
+        /* border: 2px solid red; */
+        margin-left: 6px;
+        position: absolute;
+        width: auto;
+        top: 170px;
+    }
+
+    .service-content2 h2 {
+        color: #131313;
+        font-size: 39px;
+        letter-spacing: -0.025em;
+        line-height: 40px;
+    }
+
+    .service-content2 p {
+        font-size: 14px;
+        color: #131313;
+        margin-top: 20px;
+    }
+
+    .service-content h2 {
+        color: white;
+        font-size: 34px;
+        line-height: 35px;
+        letter-spacing: -0.025em;
+    }
+
+    #service-item2 {
+        height: 580px;
+    }
+
+    .phone-item1 {
+        margin-top: 630px;
+        height: 474px;
+    }
+
+    /* Phone section  */
+    .phone-content-photo img {
+        display: none;
+    }
+
+    .phone-content-photo {
+        background-image: url(https://d2gwgwt9a7yxle.cloudfront.net/virtual_debit_card_mob_06b50dc8e0.webp);
+        width: 375px;
+        height: 250px;
+        background-size: cover;
+
+    }
+
+    /* black card photo change */
+    .black-card-photo img {
+        display: none;
+    }
+
+    .black-card-photo {
+        background-image: url(https://d2gwgwt9a7yxle.cloudfront.net/credit_card_mob_5368bd2714.webp);
+        width: 375px;
+        height: 250px;
+        background-size: cover;
+        margin-top: 5pc;
+    }
+
+    .black-card {
+        /* balck card section backgrond */
+        width: auto;
+        height: 330px;
+        background-color: black;
+        border-radius: 18px;
+    }
+
+    .card-item1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        height: 330px;
+        margin-left: 55px;
+    }
+
+    .card-buttons a {
+        /* button some move top */
+        margin-top: -20px;
+        font-weight: 600;
+    }
+
+    /* Animation image section */
+    .animation-item1 img {
+        height: 300px;
+        width: 375px;
+    }
+
+    .animation-item2 {
+        height: 252px;
+        width: 448px;
+        margin-left: 10px;
+    }
+
+    .animation-item2 h1 {
+        font-size: 39px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+
+    .animation {
+        height: 540px;
+        width: 100%;
+    }
+
+    /* Black and white container */
+    .black-white-photo img {
+        display: none;
+    }
+
+    .black-white-container {
+        width: auto;
+        height: 330px;
+    }
+
+    .black-white-content {
+        width: 900px;
+        height: 330px;
+    }
+
+    /* Download the app section did small low height */
+    .download {
+        width: 100%;
+        height: 560px;
+    }
+
+    .download-content {
+        padding: 26px 0 24px;
+    }
+
+    /* Footer contact section */
+    .footer {
+        width: 100%;
+        height: 1683px;
+        padding: 12px;
+    }
+
+    .contact-container {
+        display: block;
+        height: 570px;
+        margin-top: 30px;
+    }
+
+    .contact-content {
+        height: 95px;
+        width: 443px;
+    }
+
+    .contact-content2 {
+        height: 302px;
+        width: 472px;
+        margin-top: 162px;
+        margin-left: -60px;
+    }
+
+    .whatsapp-btn a {
+        height: 65px;
+        width: 300px;
+        margin-left: -17px;
+    }
+
+    /* Details item footer section */
+    .details-item a,
+    .second-details-item a {
+        display: none;
+    }
+
+    .details-content {
+        display: block;
+    }
+
+    .details-item {
+        display: flex;
+        flex-direction: column;
+        height: 46px;
+        border-bottom: 1px solid #cbcbcbba;
+    }
+
+    .details-item h4 {
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        height: 0px;
+        color: #1e1e1e;
+        font-size: 25px;
+    }
+
+    .second-details-item {
+        display: flex;
+        flex-direction: column;
+        margin-top: 37px;
+    }
+
+    .second-details-item h4 {
+        font-size: 25px;
+        height: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+    /* Footer Details 2 */
+    .footer-details2 {
+        height: 493px;
+        /* border: 1px solid blue; */
+        display: flex;
+        justify-content: center;
+        margin-top: 211px;
+    }
+
+    .details-container2 {
+        width: 100%;
+        height: 388px;
+        /* border-top: 1px solid #cbcbcbba; */
+        border-bottom: 2px solid #cbcbcbba;
+    }
+
+    .details-content2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .details-item-last {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .details-item-last2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .details-item-last a {
+        font-size: 11px;
+    }
+
+    .details-footer-second-box {
+        /* width: 410px; */
+        width: 100%;
+        margin-top: 100px;
+        margin-left: 0;
+    }
+
+    /* End footer section */
+    .end-footer-content {
+        display: flex;
+        flex-direction: column;
+        margin-top: 234px;
+        font-size: 12px;
+        border-top: 1px solid #cbcbcbba;
+        height: 265px;
+
+    }
+
+    .end-item1 {
+        margin-top: -48px;
+    }
+
+    .end-item2 {
+        display: flex;
+        flex-direction: column;
+        margin-left: -19px;
+        margin-top: 13px;
+    }
+
+    .end-item2 a {
+        margin-left: 20px;
+        margin-top: 7px;
+    }
+
+    /* edit code */
+    .nav-buttons-content {
+        margin-left: 650px;
+    }
+
+
+
+    /* Starting here media query 270 to 400 */
+    .main-content h1 {
+        font-size: 44px;
+    }
+
+    .box-item3 {
+        /* third box */
+        display: none;
+    }
+
+    /* Service container means big image */
+    .service-photo img {
+        display: none;
+    }
+
+    #service-item1 {
+        height: 720px;
+        width: 100%;
+        background-image: url(mobile\ bg1.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        justify-content: center;
+        position: absolute;
+        left: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .service-photo2 {
+        margin-top: 718px;
+    }
+
+    .service-content {
+        margin-top: -519px;
+        width: auto;
+        margin-right: 74px;
+    }
+
+    #service-item2 {
+        height: 837px;
+        /* height: 747px; */
+        left: 0;
+        justify-content: center;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        background-image: url(mobile\ bg2.jpg);
+        background-size: cover;
+        width: 100%;
+    }
+
+    /*  */
+
+
+    /* black card container */
+    .black-card {
+        width: 100%;
+        height: 330px;
+    }
+
+    .card-content {
+        margin-right: -20px;
+    }
+
+    /* animation */
+    .animation-item1 img {
+        height: 271px;
+        width: 334px;
+    }
+
+    .animation-item2 {
+        height: 252px;
+        width: 330px;
+    }
+
+    .animation-item2 h1 {
+        font-size: 33px;
+    }
+
+    /* black-white-container */
+    .black-white-container {
+        width: 100%;
+        height: 330px;
+    }
+
+    .black-white-content {
+        width: 99%;
+        height: 330px;
+    }
+
+    /* navber hamburger */
+    .nav-buttons-content {
+        margin-left: 553px;
+    }
+
+    .phone-content {
+        height: 433px;
+        width: 290px;
+    }
+
+    .nav-buttons-content {
+        margin-left: 464px;
+    }
+
+    /* starting here */
+    .main-content h1 {
+        font-size: 48px;
+        line-height: 57px;
+    }
+
+    .main::before {
+        display: none;
+    }
+
+    .nav-buttons-content {
+        margin-left: 372px;
+    }
+
+    .service-content {
+        font-size: 28px;
+        line-height: 39px;
+        padding: 50px 24px 0;
+    }
+
+    .service-content h2 {
+        font-size: 34px;
+        line-height: 47px;
+        max-width: 330px;
+    }
+
+    .service-content2 {
+        font-size: 28px;
+        line-height: 39px;
+        padding: 50px 24px 0;
+    }
+
+    .service-content2 h2 {
+        font-size: 34px;
+        line-height: 47px;
+        max-width: 330px;
+    }
+
+    .phone-content {
+        height: 335px;
+        position: relative;
+        left: -70px;
+    }
+
+    .black-card-photo {
+        background-image: url(https://d2gwgwt9a7yxle.cloudfront.net/credit_card_mob_5368bd2714.webp);
+        width: 100%;
+        height: 342px;
+    }
+
+    .animation {
+        height: 540px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*  */
+    .phone-content-photo {
+        background-image: url(https://d2gwgwt9a7yxle.cloudfront.net/virtual_debit_card_mob_06b50dc8e0.webp);
+        width: 130%;
+        height: 385px;
+        margin-right: 122px;
+    }
+
+    .card-item1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .black-card {
+        width: 100%;
+        height: 740px;
+    }
+
+    .card-item1 {
+        display: flex;
+        /* height: 660px; */
+        height: 789px;
+        flex-direction: column;
+    }
+
+    .card-content h1 {
+        font-size: 33px;
+        letter-spacing: -0.025em;
+        line-height: 52px;
+        width: 100%;
+        text-align-last: none;
+    }
+
+    .card-content {
+        width: 100%;
+        margin-right: 53px;
+    }
+
+    .animation-item2 {
+        height: 252px;
+        width: 100%;
+        padding: 23px;
+    }
+
+    .animation-item2 h1 {
+        font-size: 33px;
+        font-weight: 500;
+    }
+
+    .card-heading h1 {
+        font-size: 34px;
+        width: 100%;
+        line-height: 42px;
+        padding: 10px;
+    }
+
+    .download-heading h1 {
+        font-size: 34px;
+    }
+
+    .download-buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button2 {
+        margin-top: 17px;
+    }
+
+    /* start here responsive next part */
+    .box-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        top: 679px;
+    }
+
+    /* phone content */
+    .phone-item1 {
+        margin-top: 888px;
+        height: 665px;
+    }
+
+    .phone-content-photo {
+        background-image: url(https://d2gwgwt9a7yxle.cloudfront.net/virtual_debit_card_mob_06b50dc8e0.webp);
+        width: 100%;
+        margin-right: 0;
+        height: 250px;
+        background-size: cover;
+    }
+
+    .phone-content {
+        height: 410px;
+        position: relative;
+        left: 28px;
+    }
+
+    .phone-content h1 {
+        font-size: 30px;
+        width: auto;
+    }
+
+    .phone-content p {
+        font-size: 16px;
+        width: auto;
+    }
+
+    /* Main section paragraph */
+    .main-content .main-para1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-content .main-para2 {
+        text-align: center;
+        width: 100%;
+
+    }
+
+    /* button */
+    button {
+        height: 43px;
+        width: 100%;
+        font-size: 15px;
+    }
+
+    /* black card section */
+
+    .card-item1 {
+        display: flex;
+        height: 758px;
+        width: 100%;
+        margin-left: 0;
+        flex-direction: column;
+    }
+
+    .card-content {
+        width: 100%;
+        margin-right: 0;
+        padding: 0px 28px 0;
+    }
+
+    .card-content h1 {
+        font-size: 33px;
+        width: auto;
+    }
+
+    .card-content p {
+        font-size: 18px;
+        width: auto;
+    }
+
+    .card-buttons a {
+        margin-top: 0;
+        font-weight: 700;
+        font-size: 23px;
+    }
+
+    .black-card {
+        width: 100%;
+        height: 685px;
+    }
+
+    .black-card-photo {
+        width: 100%;
+        height: 270px;
+    }
+
+    /* animation section */
+    .animation-item1 {
+        order: 1;
+    }
+
+    .animation-item1 img {
+        height: 215px;
+        width: 262px;
+    }
+
+    /* black section after animation */
+    .black-white-container {
+        width: 100%;
+        height: 330px;
+        border-radius: 0px;
+    }
+
+    .black-white-content {
+        width: 100%;
+        height: 330px;
+    }
+
+    /* download the app section */
+    .download-buttons {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0px 25px;
+        margin-top: 50px;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    .button2 {
+        width: 100%;
+    }
+
+    /* first footer */
+    .footer {
+        width: 100%;
+        height: 1683px;
+        padding: 0px;
+    }
+
+    .contact-container {
+        display: block;
+        height: 620px;
+        margin-top: 30px;
+        padding: 0px 22px;
+    }
+
+    .contact-content {
+        height: 95px;
+        width: 100%;
+    }
+
+    .contact-number {
+        height: 261px;
+        width: 100%;
+    }
+
+    .logo-container {
+        /* whatsapp btn er jonno */
+        display: inline-flex;
+        width: 100%;
+    }
+
+    .whatsapp-btn a {
+        height: 65px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .logo-container2 {
+        display: flex;
+        width: 100%;
+        padding: 0px 40px;
+    }
+
+    .contact-content2 {
+        height: 302px;
+        width: 100%;
+        margin-top: 215px;
+        margin-left: 0;
+    }
+
+    .thumb-imoji {
+        display: flex;
+        gap: 42px;
+        width: 100%;
+        margin-left: -28px;
+        justify-content: center;
+    }
+
+    /* footer details 2 */
+    .footer-details {
+        width: 100%;
+        height: 396px;
+        padding: 0px 25px;
+    }
+
+    .details-container {
+        width: 100%;
+        height: 608px;
+    }
+
+    .footer-details2 {
+        height: 493px;
+        width: 100%;
+        padding: 0px 25px;
+    }
+
+    .details-item h4 {
+        font-weight: 600;
+        font-size: 19px;
+    }
+
+    /* insight */
+
+    .details-item-last h4 {
+        font-weight: 500;
+        font-size: 29px;
+        margin-bottom: 5px;
+    }
+
+    .details-item-last a {
+        font-size: 19px;
+        margin-top: 22px;
+    }
+
+    .details-item-last2 a {
+        text-decoration: none;
+        display: inline-flex;
+        flex-direction: column;
+        margin-top: 23px;
+        width: 100%;
+        font-size: 19px;
+    }
+
+    .details-container2 {
+        width: 100%;
+        height: 730px;
+        /* border-top: 1px solid #cbcbcbba; */
+        border-bottom: 1px solid #cbcbcbba;
+    }
+
+    .details-content2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: -21px;
+    }
+
+    /*  */
+    .box1 p {
+        text-decoration: none;
+        display: inline-flex;
+        flex-direction: column;
+        margin-top: 9px;
+        width: 100%;
+        font-size: 19px;
+    }
+
+    .box1 h3 {
+        font-size: 19px;
+    }
+
+    .box2 h3 {
+        font-size: 19px;
+        font-weight: 400;
+        margin-top: 25px;
+    }
+
+    /* end footer content */
+    .end-footer-content {
+        display: flex;
+        flex-direction: column;
+        margin-top: 580px;
+        width: 100%;
+        padding: 0px 22px;
+        height: 365px;
+    }
+
+    .end-item1 {
+        margin-top: -165px;
+        font-size: 15px;
+    }
+
+    .end-item2 {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    /* navber Hamburger */
+    .nav-buttons-content {
+        margin-left: 220px;
+    }
+
+    /* Staring responsive here last 270px */
+    .service-contaier {
+        top: 635px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+        position: absolute;
+        animation: opacity 2s forwards;
+    }
+
+    .main-content h1 {
+        font-size: 32px;
+        line-height: 50px;
+    }
+
+    .main-content .main-para1 {
+        margin-top: 140px;
+    }
+
+    .main-button {
+        margin-top: 70px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-button a {
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .box-item2 {
+        display: none;
+    }
+
+    .box-item1 {
+        width: 276px;
+        height: 410px;
+    }
+
+    /* big 1st image */
+    #service-item1 {
+        height: 620px;
+        width: 100%;
+    }
+
+    .service-content {
+        font-size: 28px;
+        line-height: 39px;
+        padding: 50px 24px 0;
+        margin-top: -400px;
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .service-content h2 {
+        font-size: 27px;
+        line-height: 40px;
+    }
+
+    .service-content p {
+        font-size: 16px;
+        color: white;
+        margin-top: 14px;
+        line-height: 32px;
+    }
+
+    /* big 2st image */
+    #service-item2 {
+        height: 600px;
+    }
+
+    .service-content2 h2 {
+        font-size: 26px;
+        line-height: 40px;
+    }
+
+    .service-content2 p {
+        font-size: 17px;
+        color: #131313;
+        margin-top: 18px;
+        line-height: 28px;
+    }
+
+    .service-photo2 {
+        margin-top: 619px;
+    }
+
+    .service-content2 {
+        margin-left: 6px;
+        position: absolute;
+        width: auto;
+        top: 120px;
+    }
+
+    /* Phone section */
+    .phone-item1 {
+        margin-top: 652px;
+        height: 665px;
+    }
+
+    .phone-content h1 {
+        font-size: 25px;
+        width: 100%;
+        line-height: 45px;
+    }
+
+    .phone-content {
+        height: 410px;
+        position: relative;
+        left: 0px;
+        margin-right: 0px;
+        padding: 0px 22px;
+    }
+
+    .phone-content-photo {
+        width: 100%;
+        margin-right: 78px;
+        height: 250px;
+    }
+
+    /* Black card  */
+    .black-card {
+        width: 100%;
+        height: 657px;
+        border-radius: 0px;
+    }
+
+    .card-content h1 {
+        font-size: 27px;
+        width: 100%;
+        line-height: 40px;
+    }
+
+    .card-content {
+        width: 100%;
+        margin-top: -40px;
+    }
+
+    .black-card-photo {
+        width: 100%;
+        margin-top: 130px;
+        height: 200px;
+    }
+
+    /* animation */
+    .animation-item2 h1 {
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 42px;
+        margin-bottom: 6px;
+    }
+
+    .animation-item1 img {
+        height: 173px;
+        width: 218px;
+        margin-top: 60px;
+    }
+
+    /* next section */
+    .black-white-container {
+        width: 100%;
+        height: 400px;
+        border-radius: 0px;
+    }
+
+    .download {
+        /* download section*/
+        width: 100%;
+        height: 560px;
+        margin-top: 1%;
+    }
+
+    /* footer details */
+    .thumb-imoji {
+        display: flex;
+        gap: 42px;
+        width: 100%;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .details-item h4 {
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .second-details-item h4 {
+        font-size: 16px;
+    }
+
+    .details-item-last h4 {
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .details-item-last a {
+        font-size: 13px;
+        margin-top: 22px;
+    }
+
+    .details-item-last2 a {
+        font-size: 13px;
+        /* margin-top: 22px; */
+    }
+
+    .details-footer-second-box {
+        /* width: 410px; */
+        width: 100%;
+        margin-top: 37px;
+        margin-left: 0;
+    }
+
+    /* end footer */
+    .end-footer-content {
+        display: flex;
+        flex-direction: column;
+        margin-top: 355px;
+        width: 100%;
+        padding: 0px 22px;
+        height: 365px;
+    }
+
+    .details-container2 {
+        width: 100%;
+        height: 527px;
+        /* border-top: 1px solid #cbcbcbba; */
+        border-bottom: 1px solid #cbcbcbba;
+    }
+
+    .end-footer-content {
+        display: flex;
+        flex-direction: column;
+        margin-top: 355px;
+        width: 100%;
+        padding: 0px 22px;
+        /* margin-left: 18px; */
+        height: 365px;
+        border-top: 1px solid #cbcbcbba;
+    }
+
+    .end-item1 p {
+        color: #979797;
+        line-height: 35px;
+    }
+
+    .end-item2 {
+        margin-top: -6px;
+        font-size: 15px;
+    }
+
+    /* hamburger */
+    .nav-buttons-content {
+        margin-left: 80px;
+    }
+
+    /* main 1st box */
+    .box-content1 h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .box-content1 p {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .box-content1 {
+        padding: 0px;
+    }
+
+    .box-item1 {
+        width: 100%;
+        height: 393px;
+        padding: 41px 20px;
+    }
+
+    .box-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        top: 715px;
+        min-height: 0px;
+    }
+
+    .footer {
+        width: 100%;
+        height: 2335px;
+        padding: 0px;
     }
 }
